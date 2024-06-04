@@ -9,5 +9,10 @@ public class CatDriver {
         cat.name = "Jane";
         
         System.out.println("My name is " + cat.name + ", my breed is " + cat.breed + " and I am " + cat.size + " cm long");
+        
+        // calling the cat meow method
+        
+        System.out.println();
+        cat.catMeow();
     }
 }
