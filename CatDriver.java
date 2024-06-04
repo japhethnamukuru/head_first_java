@@ -2,17 +2,26 @@ package demo;
 
 public class CatDriver {
     public static void main(String [] args) {
-        Cat cat = new Cat();
+        Cat catOne = new Cat();
+        Cat catTwo = new Cat();
+        Cat catThree = new Cat();
         
-        cat.size = 20;
-        cat.breed = "Russian";
-        cat.name = "Jane";
+        //initializing catOne attributes
+        catOne.size = 20;
+        catOne.breed = "Russian";
+        catOne.name = "Jane";
         
-        System.out.println("My name is " + cat.name + ", my breed is " + cat.breed + " and I am " + cat.size + " cm long");
+        //initializing catTow attributes
+        catTwo.size = 15;
+        catTwo.breed = "American";
+        catTwo.name = "Nana";
+        
+        
+        System.out.println("My name is " + catOne.name + ", my breed is " + catOne.breed + " and I am " + catOne.size + " cm long");
         
         // calling the cat meow method
         
         System.out.println();
-        cat.catMeow();
+        catOne.catMeow();
     }
 }
